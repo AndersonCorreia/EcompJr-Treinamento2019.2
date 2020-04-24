@@ -7,9 +7,9 @@ class Router{
     private $param;
 
     public function start($request){
-        
-        if(isset($request['REQUEST_URI'])){
-            $this->url = explode('/', $request['REQUEST_URI']);
+
+        $this->url = explode('/', $request['REQUEST_URI']);
+        if(count($this->url) > 2){
             array_shift($this->url);
             $this->controller = ucfirst($this->url[0]."Controller");
             array_shift($this->url);
