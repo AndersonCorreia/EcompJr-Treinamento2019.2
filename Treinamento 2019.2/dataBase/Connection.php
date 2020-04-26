@@ -5,7 +5,7 @@ abstract class Connection{
     
     public static function getConnection(){
         if(!self::$connection){
-            self::$connection = new mysqli("localhost", "root", "", "backend");
+            self::$connection = new \mysqli("localhost", "root", "", "backend");
         }
         return self::$connection;
     }

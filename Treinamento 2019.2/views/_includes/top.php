@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-<h class="container-fluid row m-0 p-0 bg-white">
-    <div class="col-6 ml-5 pl-5 p-1 m-0">
-        <img src="https://www.brasiljunior.org.br/static/logo-brasil-junior.png" style="height: 10vh;" alt="logo da brasil junior" >
+<body >
+<div class="container-fluid row m-0 p-0 bg-white" style="height: 12vh;" >
+    <div class="col-4 pl-5 p-1 m-0" style="height: 95%;">
+        <img src="https://www.brasiljunior.org.br/static/logo-brasil-junior.png" style="height: 100%;" alt="logo da brasil junior" >
     </div>
-    <div class="col p-2 pr-md-5 m-0">
+    <div class="col-8 p-2 pr-md-5 m-0">
         <?php
             if(isset($_SESSION['user'])){
         ?>
-        <a class="btn btn-warning btn-sm float-right mr-5 mt-3" href="/views/admin/dashboard.php">Dashboard</a>
+        <div class="float-right mr-5 mt-3">
+            <a class="btn btn-warning btn-sm" href="/views/admin/dashboard.php">Dashboard</a>
+            <a class="btn btn-warning btn-sm" href="/user/logout">Sair</a>
+        </div>
         <?php
             }else{
         ?>
@@ -27,7 +28,7 @@
             }
         ?>
     </div>
-    <hr class="m-0 p-0 col-12" color="green" style="height: 0.2em;"></h>
-</h>
+    <hr class="m-0 p-0 col-12" color="green" style="height: 4%;">
+</div>
 <div class="bg-light row container col m-0 p-0">
     
