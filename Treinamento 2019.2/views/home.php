@@ -25,36 +25,36 @@ include __DIR__."/_includes/top.php";
         de empreendedores comprometidos e capazes de transformar o país"
     </p>
 </div>
-<div class="col-12 row m-0 col-md-6 p-2 px-5 text-center font-weight-bold" style="font-size: 18pt;">
+<div class="col-12 row m-0 col-md-6 p-2 px-md-5 text-center font-weight-bold" style="font-size: 18pt;">
     <p class="text-success col-12 m-0" style="font-size: 22pt;">
         RESULTADOS DA REDE
     </p>
-    <div class="col-8 col-md-5 m-md-3 text-warning bg-white d-flex justify-content-center
+    <div class="col-7 col-md-5 mx-md-3 my-3 mx-auto text-warning bg-white d-flex align-items-center justify-content-center
         border border-secondary rounded">
         <span>
             +33 Milhões<br><small>FATURAMENTO </small>
         </span>
     </div>
-    <div class="col-8 col-md-5 m-md-3 text-dark bg-white d-flex justify-content-center
+    <div class="col-7 col-md-5 mx-md-3 my-3 mx-auto text-dark bg-white d-flex align-items-center justify-content-center
         border border-secondary rounded">
         <span>
             +20 Mil<br><small>PROJETOS </small>
         </span>
     </div>
-    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-dark bg-white 
+    <div class="col-7 col-md-5 mx-md-3 my-3 mx-auto d-flex align-items-center text-dark bg-white justify-content-center
         border border-secondary rounded">
         <span>
             +900<br><small>EMPRESAS<br>JUNIORES </small>
         </span>
     </div>
-    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-success bg-white 
-    border border-secondary rounded ">
+    <div class="col-7 col-md-5 mx-md-3 my-3 mx-auto p-2 p-md-0 d-flex align-items-center text-success bg-white justify-content-center
+        border border-secondary rounded ">
         <span>
             +22 Mil<br><small>EMPRESÁRIOS JUNIORES </small>
         </span>
     </div>
-    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-primary bg-white 
-    border border-secondary rounded">
+    <div class="col-7 col-md-5 mx-md-3 my-3 mx-auto d-flex align-items-center text-primary bg-white justify-content-center
+        border border-secondary rounded">
         <span>
             +150<br><small>UNIVERSIDADES </small>
         </span>

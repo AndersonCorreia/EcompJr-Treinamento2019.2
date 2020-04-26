@@ -45,6 +45,7 @@ class CompanyController{
 
         $DB = Connection::getConnection();
         $query="DELETE FROM companys WHERE id=$id";
+        unset($_SESSION['company']);   
         $result = $DB->query($query);
         $DB->commit();
         header("Location: /views/admin/company/index.php", true);
@@ -61,7 +62,7 @@ class CompanyController{
         $companys = array_map( function ($e) {
 
             return new Company($e['id'], $e['name'], $e['federation']);
-            
+
         }, $companysArray);
 
         return $companys;

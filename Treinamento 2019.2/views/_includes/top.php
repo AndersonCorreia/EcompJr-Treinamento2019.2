@@ -10,7 +10,9 @@
 <body >
 <div class="container-fluid row m-0 p-0 bg-white" style="height: 12vh;" >
     <div class="col-4 pl-5 p-1 m-0" style="height: 95%;">
-        <img src="https://www.brasiljunior.org.br/static/logo-brasil-junior.png" style="height: 100%;" alt="logo da brasil junior" >
+        <a href="/">
+            <img src="https://www.brasiljunior.org.br/static/logo-brasil-junior.png" style="height: 100%;" alt="logo da brasil junior" >
+        </a>
     </div>
     <div class="col-8 p-2 pr-md-5 m-0">
         <?php
