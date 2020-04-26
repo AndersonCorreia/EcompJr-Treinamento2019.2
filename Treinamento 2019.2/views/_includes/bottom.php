@@ -4,7 +4,7 @@
     <div class="col-md-6 col-12 m-0 p-3">
         <p class="col-12"> PARCEIROS </p>
     </div>
-    <div class="col-md-6 col-12 m-0 p-3">
+    <div class="col-md-6 col-12 m-0 p-3 text-left">
         <p class="col-12"> CONTATOS </p>
     </div>
 </div>

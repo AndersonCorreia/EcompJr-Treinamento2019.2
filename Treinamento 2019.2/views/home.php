@@ -25,30 +25,40 @@ include __DIR__."/_includes/top.php";
         de empreendedores comprometidos e capazes de transformar o país"
     </p>
 </div>
-<div class="col-12 row m-0 col-md-6 p-2 px-5 text-center">
-    <p class="font-weight-bold text-success col-12" style="font-size: 22pt;">
+<div class="col-12 row m-0 col-md-6 p-2 px-5 text-center font-weight-bold" style="font-size: 18pt;">
+    <p class="text-success col-12 m-0" style="font-size: 22pt;">
         RESULTADOS DA REDE
     </p>
-    <span class="col-8 col-md-5 m-md-3 align-middle mx-auto font-weight-bold text-warning bg-white border border-secondary rounded"
-         style="font-size: 18pt;">
-        +33 Milhões<br><small>FATURAMENTO </small>
-    </span>
-    <span class="col-8 col-md-5 m-md-3 mx-auto font-weight-bold text-dark bg-white border border-secondary rounded"
-         style="font-size: 18pt;">
-        +20 Mil<br><small>PROJETOS </small>
-    </span>
-    <span class="col-8 col-md-5 m-md-3 mx-auto font-weight-bold text-dark bg-white border border-secondary rounded"
-         style="font-size: 18pt;">
-        +900<br><small>EMPRESAS<br>JUNIORES </small>
-    </span>
-    <span class="col-8 col-md-5 m-md-3 mx-auto font-weight-bold text-success bg-white border border-secondary rounded "
-         style="font-size: 18pt;">
-        +22 Mil<br><small>EMPRESÁRIOS JUNIORES </small>
-    </span>
-    <span class="col-8 col-md-5 m-md-3 mx-auto font-weight-bold text-primary bg-white border border-secondary rounded"
-         style="font-size: 18pt;">
-        +150<br><small>UNIVERSIDADES </small>
-    </span>
+    <div class="col-8 col-md-5 m-md-3 text-warning bg-white d-flex justify-content-center
+        border border-secondary rounded">
+        <span>
+            +33 Milhões<br><small>FATURAMENTO </small>
+        </span>
+    </div>
+    <div class="col-8 col-md-5 m-md-3 text-dark bg-white d-flex justify-content-center
+        border border-secondary rounded">
+        <span>
+            +20 Mil<br><small>PROJETOS </small>
+        </span>
+    </div>
+    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-dark bg-white 
+        border border-secondary rounded">
+        <span>
+            +900<br><small>EMPRESAS<br>JUNIORES </small>
+        </span>
+    </div>
+    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-success bg-white 
+    border border-secondary rounded ">
+        <span>
+            +22 Mil<br><small>EMPRESÁRIOS JUNIORES </small>
+        </span>
+    </div>
+    <div class="col-8 col-md-5 m-md-3 d-flex justify-content-center text-primary bg-white 
+    border border-secondary rounded">
+        <span>
+            +150<br><small>UNIVERSIDADES </small>
+        </span>
+    </div>
 </div>
 <div class="col-12 m-0 pl-5 mt-5 col-md-5 p-2 text-right">
     <p class="font-weight-bold text-primary" style="font-size: 22pt;">

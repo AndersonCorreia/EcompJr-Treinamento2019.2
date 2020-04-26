@@ -61,6 +61,7 @@ class CompanyController{
         $companys = array_map( function ($e) {
 
             return new Company($e['id'], $e['name'], $e['federation']);
+            
         }, $companysArray);
 
         return $companys;
